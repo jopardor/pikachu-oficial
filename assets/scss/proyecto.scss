@@ -1,0 +1,136 @@
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+
+
+ //BODY 
+
+body{
+    background-image: url('../img/fondobodygeneral.jpg'); /* Ruta relativa a la ubicación del archivo CSS */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+//PARA JS
+
+#brazo-2-js {
+  transition: transform 5s; /* La rotación se realizará en 5 segundos */
+}
+
+#brazo-1-js {
+  transition: transform 5s; /* La rotación se realizará en 5 segundos */
+}
+
+
+
+//TITULO
+
+h1{
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  color: yellow;
+  
+}
+
+
+
+
+
+
+
+
+
+//BOTONES
+
+.boton-1{
+  position: absolute;
+  top: 400px;
+  left: 70px ;
+}
+
+.boton-2{
+  position: absolute;
+  top: 350px;
+  left: 70px ;
+}
+
+.boton-3{
+  position: absolute;
+  top: 300px;
+  left: 70px ;
+}
+
+
+
+
+//PIKACHU
+
+
+.container-1 {
+    position: relative;
+    width: 1000px; /* Ancho del contenedor */
+    height: 1000px; /* Altura del contenedor */
+    top: 0px;
+    bottom: 0px;
+  }
+  
+  .ojo-1 {
+    position: absolute;
+    top: 405px; /* Ajusta esta posición según sea necesario */
+    left: 460px; /* Ajusta esta posición según sea necesario */
+  }
+  
+  .ojo-2 {
+    position: absolute;
+    top: 400px; /* Ajusta esta posición según sea necesario */
+    left: 580px; /* Ajusta esta posición según sea necesario */
+  }
+  
+  .boca-1 {
+    position: absolute;
+    top: 470px; /* Ajusta esta posición según sea necesario */
+    left: 480px; /* Ajusta esta posición según sea necesario */
+  }
+  
+  .cuerpo-1 {
+    position: relative;
+    
+    left: 200px;
+    right: 200px; 
+  }
+  
+  .cola-1 {
+    position: absolute;
+    top: 220px; /* Ajusta esta posición según sea necesario */
+    left: 690px; /* Ajusta esta posición según sea necesario */
+  }
+  
+  .brazo-1 {
+    position: absolute;
+    top: 600px; /* Ajusta esta posición según sea necesario */
+    left: 400px; /* Ajusta esta posición según sea necesario */
+  }
+  
+  .brazo-2 {
+    position: absolute;
+    top: 605px; /* Ajusta esta posición según sea necesario */
+    left: 605px; /* Ajusta esta posición según sea necesario */
+  }
+  
+
+
+
+
+
+
+
+
